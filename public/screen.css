@@ -5,29 +5,34 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
-  background-color: rgba(116, 110, 108, 0);
-  text-align: center
+  font: 16px / 1;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 nav {
-  color: white;
-  position: fixed;
+ 
+  color:white;
   width: 100%;
-  background-color: rgb(17, 52, 139);
+  background-color: #002868; 
   top: 0;
+  border: 5px;
+  border-color: black;
+  display: flex;
+  height: 500px;
+  font-size: 75px;
+  padding: 10px;
+  flex-direction: column;
 }
 
 a {
-  color: white;
-}
-
-a:hover {
-  transform: scale(1.5);
+  color:white;
 }
 
 h1 {
   text-align: center;
+  font-size: 90px;
+  height: 150px;
 }
 
 h2 {
@@ -49,6 +54,79 @@ ul {
 
 li {
   margin: 50px;
+  color: white;
+  
 }
 
+ .homepage {
+  background-color: #BF0A30;
 
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+    */
+}
+
+.vert-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.mike {
+  background-color: #BF0A30;
+
+}
+
+.mandi {
+  background-color: #BF0A30;
+
+}
+
+.izzac {
+  background-color: #BF0A30;
+
+}
+
+.bella {
+  background-color: #BF0A30;
+
+}
+
+#family-photo {
+  margin: 10px;
+} 
+
+.column {
+  display: flex;
+  justify-content: center;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  padding: 20px;
+  position: relative;
+  height: 1500px;
+  width: 1500px;
+  
+  
+}
+
+#greatest {
+  color: white; 
+  font-size: 200px;
+  padding: 20px;
+  top:20px;
+  
+}
+
+p {
+  top: 50px;
+}
